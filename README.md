@@ -1,2 +1,11 @@
-# Windows-Troubleshooting-Labs
-Hands-on Windows troubleshooting labs documenting common system, hardware, and network issues.
+# Windows Troubleshooting Labs
+
+## About
+
+This repository documents hands-on Windows troubleshooting exercises.
+
+The goal is to develop practical skills in diagnosing and resolving common computer problems.
+
+## Labs
+
+More troubleshooting exercises coming soon.
