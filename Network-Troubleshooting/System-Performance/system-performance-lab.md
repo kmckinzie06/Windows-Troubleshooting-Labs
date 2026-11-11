@@ -45,7 +45,23 @@ Used Windows Task Manager's Performance tab to inspect memory.
 
 The system had substantial available memory, with no obvious indication of memory pressure.
 
-## 4. Preliminary Conclusion
+## 4. Disk Performance Investigation
+
+Used Windows Task Manager's Performance tab to inspect Disk 0 (C:).
+
+| Metric | Observation |
+|---|---:|
+| Drive Type | SSD |
+| Active Time | 0–2% |
+| Average Response Time | Approximately 10 ms |
+| Read Speed | Approximately 30 KB/s |
+| Write Speed | Approximately 300 MB/s (fluctuating) |
+
+The SSD remained mostly idle during the observation period. Write speed fluctuated, indicating occasional write activity, but active time remained between 0% and 2%.
+
+No obvious storage bottleneck was identified during this investigation.
+
+## 5. Preliminary Conclusion
 
 The system showed relatively low CPU usage and substantial available memory during the investigation. Chrome was the largest application resource consumer, but its CPU usage fluctuated rather than remaining consistently elevated.
 
