@@ -10,7 +10,7 @@ Investigate Windows system resource usage to understand how CPU, memory, disk, a
 
 ## 1. Windows Task Manager — Processes
 
-Observed system resource usage:
+Initial observed system resource usage:
 
 | Resource | Observed Usage |
 |---|---:|
@@ -61,18 +61,26 @@ The SSD remained mostly idle during the observation period. Write speed fluctuat
 
 No obvious storage bottleneck was identified during this investigation.
 
-## 5. Preliminary Conclusion
+## 5. Final Conclusion
 
-The system showed relatively low CPU usage and substantial available memory during the investigation. Chrome was the largest application resource consumer, but its CPU usage fluctuated rather than remaining consistently elevated.
+The system was observed under normal operating conditions.
 
-No obvious CPU or memory bottleneck was identified during these observations.
+- CPU usage was approximately 13% during the initial observation.
+- Memory usage was approximately 28%, with substantial available RAM.
+- SSD active time remained between 0% and 2%.
 
-Further investigation of disk activity and performance is needed before reaching a complete conclusion.
+Chrome was the largest application resource consumer, but its CPU usage fluctuated rather than remaining consistently elevated.
+
+No obvious CPU, memory, or storage bottleneck was identified during the investigation.
+
+These findings represent a snapshot of system performance under the observed conditions. Further testing under heavier workloads would be needed to identify performance issues that occur only under load.
 
 ## Skills Practiced
+
 - Using Windows Task Manager
-- Monitoring CPU and memory usage
+- Monitoring CPU, memory, and disk usage
 - Using Chrome Task Manager
 - Identifying resource-intensive applications
-- Interpreting network activity measurements
-- Documenting system performance findings
+- Understanding disk read/write activity
+- Interpreting performance measurements
+- Documenting troubleshooting findings
